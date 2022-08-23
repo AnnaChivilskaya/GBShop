@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		A156911E28AEB3150001D5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156911D28AEB3150001D5DE /* AppDelegate.swift */; };
-		A156912028AEB3150001D5DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156911F28AEB3150001D5DE /* SceneDelegate.swift */; };
 		A156912728AEB3170001D5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A156912628AEB3170001D5DE /* Assets.xcassets */; };
 		A156912A28AEB3170001D5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A156912828AEB3170001D5DE /* LaunchScreen.storyboard */; };
 		A156913528AEB3170001D5DE /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156913428AEB3170001D5DE /* GBShopTests.swift */; };
 		A156913F28AEB3170001D5DE /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156913E28AEB3170001D5DE /* GBShopUITests.swift */; };
 		A156914128AEB3170001D5DE /* GBShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156914028AEB3170001D5DE /* GBShopUITestsLaunchTests.swift */; };
+		A1A2AABF28B53D3F00123CAD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A1A2AABE28B53D3F00123CAD /* Alamofire */; };
+		A1A2AAC128B53D7C00123CAD /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAC028B53D7C00123CAD /* AuthRequestFactory.swift */; };
+		A1A2AAC328B53D8B00123CAD /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAC228B53D8B00123CAD /* Auth.swift */; };
+		A1A2AAC528B53E4D00123CAD /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAC428B53E4D00123CAD /* LoginResult.swift */; };
+		A1A2AAC728B53E5500123CAD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAC628B53E5500123CAD /* User.swift */; };
+		A1A2AAC928B53FAB00123CAD /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAC828B53FAB00123CAD /* RequestFactory.swift */; };
+		A1A2AACC28B5408B00123CAD /* AbstractRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AACB28B5408B00123CAD /* AbstractRequestFactory.swift */; };
+		A1A2AACE28B540CE00123CAD /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AACD28B540CE00123CAD /* AbstractErrorParser.swift */; };
+		A1A2AAD028B5415800123CAD /* ResponseCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AACF28B5415800123CAD /* ResponseCodable.swift */; };
+		A1A2AAD228B5419E00123CAD /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAD128B5419E00123CAD /* ErrorParser.swift */; };
+		A1A2AAD428B5422600123CAD /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAD328B5422600123CAD /* RequestRouter.swift */; };
+		A1A2AAD628B5442F00123CAD /* RegistrationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAD528B5442F00123CAD /* RegistrationResult.swift */; };
+		A1A2AAD828B5446400123CAD /* LogOutResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAD728B5446400123CAD /* LogOutResult.swift */; };
+		A1A2AADA28B5448300123CAD /* ChangesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAD928B5448300123CAD /* ChangesResult.swift */; };
+		A1A2AADC28B545E400123CAD /* RegistrationRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AADB28B545E400123CAD /* RegistrationRequestFactory.swift */; };
+		A1A2AADE28B545F000123CAD /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AADD28B545F000123CAD /* Registration.swift */; };
+		A1A2AAE028B5460900123CAD /* LogOutRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AADF28B5460900123CAD /* LogOutRequestFactory.swift */; };
+		A1A2AAE228B5462800123CAD /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAE128B5462800123CAD /* LogOut.swift */; };
+		A1A2AAE428B5463900123CAD /* ChangesRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAE328B5463900123CAD /* ChangesRequestFactory.swift */; };
+		A1A2AAE628B5464A00123CAD /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAE528B5464A00123CAD /* Changes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +55,6 @@
 /* Begin PBXFileReference section */
 		A156911A28AEB3150001D5DE /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A156911D28AEB3150001D5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A156911F28AEB3150001D5DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A156912628AEB3170001D5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A156912928AEB3170001D5DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A156912B28AEB3170001D5DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +63,25 @@
 		A156913A28AEB3170001D5DE /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A156913E28AEB3170001D5DE /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		A156914028AEB3170001D5DE /* GBShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A2AAC028B53D7C00123CAD /* AuthRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestFactory.swift; sourceTree = "<group>"; };
+		A1A2AAC228B53D8B00123CAD /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		A1A2AAC428B53E4D00123CAD /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		A1A2AAC628B53E5500123CAD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A1A2AAC828B53FAB00123CAD /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		A1A2AACB28B5408B00123CAD /* AbstractRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractRequestFactory.swift; sourceTree = "<group>"; };
+		A1A2AACD28B540CE00123CAD /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
+		A1A2AACF28B5415800123CAD /* ResponseCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCodable.swift; sourceTree = "<group>"; };
+		A1A2AAD128B5419E00123CAD /* ErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		A1A2AAD328B5422600123CAD /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
+		A1A2AAD528B5442F00123CAD /* RegistrationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationResult.swift; sourceTree = "<group>"; };
+		A1A2AAD728B5446400123CAD /* LogOutResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutResult.swift; sourceTree = "<group>"; };
+		A1A2AAD928B5448300123CAD /* ChangesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesResult.swift; sourceTree = "<group>"; };
+		A1A2AADB28B545E400123CAD /* RegistrationRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequestFactory.swift; sourceTree = "<group>"; };
+		A1A2AADD28B545F000123CAD /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		A1A2AADF28B5460900123CAD /* LogOutRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutRequestFactory.swift; sourceTree = "<group>"; };
+		A1A2AAE128B5462800123CAD /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
+		A1A2AAE328B5463900123CAD /* ChangesRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesRequestFactory.swift; sourceTree = "<group>"; };
+		A1A2AAE528B5464A00123CAD /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A2AABF28B53D3F00123CAD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				A156911D28AEB3150001D5DE /* AppDelegate.swift */,
-				A156911F28AEB3150001D5DE /* SceneDelegate.swift */,
 				A19E199628AEBE82009328B7 /* BussinessLogic */,
 				A19E199528AEBE34009328B7 /* Entity */,
 				A19E199228AEBDD3009328B7 /* Assembly */,
@@ -167,6 +204,11 @@
 		A19E199528AEBE34009328B7 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				A1A2AAC428B53E4D00123CAD /* LoginResult.swift */,
+				A1A2AAC628B53E5500123CAD /* User.swift */,
+				A1A2AAD528B5442F00123CAD /* RegistrationResult.swift */,
+				A1A2AAD728B5446400123CAD /* LogOutResult.swift */,
+				A1A2AAD928B5448300123CAD /* ChangesResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -174,6 +216,7 @@
 		A19E199628AEBE82009328B7 /* BussinessLogic */ = {
 			isa = PBXGroup;
 			children = (
+				A1A2AABC28B53CE700123CAD /* Network */,
 			);
 			path = BussinessLogic;
 			sourceTree = "<group>";
@@ -181,8 +224,37 @@
 		A19E199728AEBF9B009328B7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A1A2AACA28B5407000123CAD /* Network */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		A1A2AABC28B53CE700123CAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A1A2AAC028B53D7C00123CAD /* AuthRequestFactory.swift */,
+				A1A2AAC228B53D8B00123CAD /* Auth.swift */,
+				A1A2AAC828B53FAB00123CAD /* RequestFactory.swift */,
+				A1A2AADB28B545E400123CAD /* RegistrationRequestFactory.swift */,
+				A1A2AADD28B545F000123CAD /* Registration.swift */,
+				A1A2AADF28B5460900123CAD /* LogOutRequestFactory.swift */,
+				A1A2AAE128B5462800123CAD /* LogOut.swift */,
+				A1A2AAE328B5463900123CAD /* ChangesRequestFactory.swift */,
+				A1A2AAE528B5464A00123CAD /* Changes.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A1A2AACA28B5407000123CAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A1A2AACD28B540CE00123CAD /* AbstractErrorParser.swift */,
+				A1A2AACB28B5408B00123CAD /* AbstractRequestFactory.swift */,
+				A1A2AAD128B5419E00123CAD /* ErrorParser.swift */,
+				A1A2AACF28B5415800123CAD /* ResponseCodable.swift */,
+				A1A2AAD328B5422600123CAD /* RequestRouter.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +273,9 @@
 			dependencies = (
 			);
 			name = GBShop;
+			packageProductDependencies = (
+				A1A2AABE28B53D3F00123CAD /* Alamofire */,
+			);
 			productName = GBShop;
 			productReference = A156911A28AEB3150001D5DE /* GBShop.app */;
 			productType = "com.apple.product-type.application";
@@ -273,6 +348,9 @@
 				Base,
 			);
 			mainGroup = A156911128AEB3150001D5DE;
+			packageReferences = (
+				A1A2AABD28B53D3F00123CAD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A156911B28AEB3150001D5DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -315,8 +393,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A2AACC28B5408B00123CAD /* AbstractRequestFactory.swift in Sources */,
+				A1A2AAC928B53FAB00123CAD /* RequestFactory.swift in Sources */,
+				A1A2AAD628B5442F00123CAD /* RegistrationResult.swift in Sources */,
+				A1A2AAC528B53E4D00123CAD /* LoginResult.swift in Sources */,
+				A1A2AADA28B5448300123CAD /* ChangesResult.swift in Sources */,
+				A1A2AAE028B5460900123CAD /* LogOutRequestFactory.swift in Sources */,
+				A1A2AAC128B53D7C00123CAD /* AuthRequestFactory.swift in Sources */,
+				A1A2AAD028B5415800123CAD /* ResponseCodable.swift in Sources */,
+				A1A2AAD228B5419E00123CAD /* ErrorParser.swift in Sources */,
+				A1A2AAE228B5462800123CAD /* LogOut.swift in Sources */,
+				A1A2AADE28B545F000123CAD /* Registration.swift in Sources */,
+				A1A2AAD428B5422600123CAD /* RequestRouter.swift in Sources */,
 				A156911E28AEB3150001D5DE /* AppDelegate.swift in Sources */,
-				A156912028AEB3150001D5DE /* SceneDelegate.swift in Sources */,
+				A1A2AADC28B545E400123CAD /* RegistrationRequestFactory.swift in Sources */,
+				A1A2AAC728B53E5500123CAD /* User.swift in Sources */,
+				A1A2AAD828B5446400123CAD /* LogOutResult.swift in Sources */,
+				A1A2AAC328B53D8B00123CAD /* Auth.swift in Sources */,
+				A1A2AAE628B5464A00123CAD /* Changes.swift in Sources */,
+				A1A2AACE28B540CE00123CAD /* AbstractErrorParser.swift in Sources */,
+				A1A2AAE428B5463900123CAD /* ChangesRequestFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +740,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1A2AABD28B53D3F00123CAD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1A2AABE28B53D3F00123CAD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1A2AABD28B53D3F00123CAD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A156911228AEB3150001D5DE /* Project object */;
 }
