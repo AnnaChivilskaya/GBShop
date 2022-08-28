@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 protocol ChangesRequestFactory {
-
+    
     func changes(
         idUser: Int,
         username: String,

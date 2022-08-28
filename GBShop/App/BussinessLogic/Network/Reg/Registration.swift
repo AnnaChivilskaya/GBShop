@@ -21,10 +21,10 @@ class Registration: AbstractRequestFactory {
         sessionManager: Session,
         queue: DispatchQueue = DispatchQueue.global(qos: .utility)
     ) {
-            self.errorParser = errorParser
-            self.sessionManager = sessionManager
-            self.queue = queue
-        }
+        self.errorParser = errorParser
+        self.sessionManager = sessionManager
+        self.queue = queue
+    }
 }
 extension Registration: RegistrationRequestFactory {
     
@@ -36,24 +36,24 @@ extension Registration: RegistrationRequestFactory {
         genger: String,
         creditCard: String,
         bio: String, completionHandler: @escaping (AFDataResponse<RegistationResult>) -> Void) {
-        let requestModel = Registr(
-            baseUrl: baseUrl,
-            userID: idUser,
-            username: userName,
-            password: password,
-            email: email,
-            gender: genger,
-            creditCard: creditCard,
-            bio: bio
-        )
-        self.request(request: requestModel, completionHandler: completionHandler)
+            let requestModel = Registr(
+                baseUrl: baseUrl,
+                userID: idUser,
+                username: userName,
+                password: password,
+                email: email,
+                gender: genger,
+                creditCard: creditCard,
+                bio: bio
+            )
+            self.request(request: requestModel, completionHandler: completionHandler)
         }
     
-    }
-    
-    
-extension Registration {
+}
 
+
+extension Registration {
+    
     struct Registr: RequestRouter {
         let baseUrl: URL
         let method: HTTPMethod = .get

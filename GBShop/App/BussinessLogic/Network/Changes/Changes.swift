@@ -9,12 +9,12 @@ import Foundation
 import Alamofire
 
 class Changes: AbstractRequestFactory {
-
+    
     let errorParser: AbstractErrorParser
     let sessionManager: Session
     let queue: DispatchQueue
     let baseUrl = URL(string: "https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses/")!
-
+    
     init(
         errorParser: AbstractErrorParser,
         sessionManager: Session,
@@ -36,25 +36,25 @@ extension Changes: ChangesRequestFactory {
         creditCard: String,
         bio: String,
         completionHandler: @escaping (AFDataResponse<ChangesResult>) -> Void) {
-        let requestModel = Change(
-            baseUrl: baseUrl,
-            userID: idUser,
-            username: username,
-            password: password,
-            email: email,
-            gender: gender,
-            creditCard: creditCard,
-            bio: bio
-        )
-        self.request(
-            request: requestModel,
-            completionHandler: completionHandler
-        )
-    }
+            let requestModel = Change(
+                baseUrl: baseUrl,
+                userID: idUser,
+                username: username,
+                password: password,
+                email: email,
+                gender: gender,
+                creditCard: creditCard,
+                bio: bio
+            )
+            self.request(
+                request: requestModel,
+                completionHandler: completionHandler
+            )
+        }
 }
 
 extension Changes {
-
+    
     struct Change: RequestRouter {
         
         let baseUrl: URL
@@ -81,5 +81,5 @@ extension Changes {
     }
 }
 
-    
+
 
