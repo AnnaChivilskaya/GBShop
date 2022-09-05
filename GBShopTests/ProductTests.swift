@@ -31,7 +31,6 @@ class ProductTests: XCTestCase {
         let productPrice = 99
         let productDescription = "description"
         
-        
         product.product(result: result, productName: productName, productPrice: productPrice, productDescription: productDescription)
         { [weak self] response in
             switch response.result {
