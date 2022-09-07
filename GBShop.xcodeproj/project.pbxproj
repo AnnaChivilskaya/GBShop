@@ -51,6 +51,13 @@
 		A1A2AAE228B5462800123CAD /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAE128B5462800123CAD /* LogOut.swift */; };
 		A1A2AAE428B5463900123CAD /* ChangesRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAE328B5463900123CAD /* ChangesRequestFactory.swift */; };
 		A1A2AAE628B5464A00123CAD /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2AAE528B5464A00123CAD /* Changes.swift */; };
+		A1D025C628C8BB9900939DAB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025C528C8BB9900939DAB /* Cart.swift */; };
+		A1D025C928C8BBC900939DAB /* CartRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025C828C8BBC900939DAB /* CartRequestFactory.swift */; };
+		A1D025CB28C8BC8D00939DAB /* CartBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025CA28C8BC8D00939DAB /* CartBalance.swift */; };
+		A1D025CD28C8BC9900939DAB /* CartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025CC28C8BC9900939DAB /* CartResult.swift */; };
+		A1D025CF28C8BCB500939DAB /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025CE28C8BCB500939DAB /* AddCard.swift */; };
+		A1D025D128C8BD9500939DAB /* RemoveCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025D028C8BD9500939DAB /* RemoveCart.swift */; };
+		A1D025D328C8C0CD00939DAB /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025D228C8C0CD00939DAB /* CartTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +125,13 @@
 		A1A2AAE128B5462800123CAD /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
 		A1A2AAE328B5463900123CAD /* ChangesRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesRequestFactory.swift; sourceTree = "<group>"; };
 		A1A2AAE528B5464A00123CAD /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
+		A1D025C528C8BB9900939DAB /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		A1D025C828C8BBC900939DAB /* CartRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRequestFactory.swift; sourceTree = "<group>"; };
+		A1D025CA28C8BC8D00939DAB /* CartBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartBalance.swift; sourceTree = "<group>"; };
+		A1D025CC28C8BC9900939DAB /* CartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartResult.swift; sourceTree = "<group>"; };
+		A1D025CE28C8BCB500939DAB /* AddCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCard.swift; sourceTree = "<group>"; };
+		A1D025D028C8BD9500939DAB /* RemoveCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveCart.swift; sourceTree = "<group>"; };
+		A1D025D228C8C0CD00939DAB /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +211,7 @@
 				A1A106AB28BBE46100C93783 /* ProductTests.swift */,
 				A1A106AD28BBE47500C93783 /* CatalogTests.swift */,
 				A10C875928C6068100EB22CB /* ReviewsTests.swift */,
+				A1D025D228C8C0CD00939DAB /* CartTests.swift */,
 			);
 			path = GBShopTests;
 			sourceTree = "<group>";
@@ -266,6 +281,10 @@
 				A1A2AAD928B5448300123CAD /* ChangesResult.swift */,
 				A1A106A728BBD49700C93783 /* ProductResult.swift */,
 				A1A106A928BBD4A100C93783 /* CatalogResult.swift */,
+				A1D025CA28C8BC8D00939DAB /* CartBalance.swift */,
+				A1D025CC28C8BC9900939DAB /* CartResult.swift */,
+				A1D025CE28C8BCB500939DAB /* AddCard.swift */,
+				A1D025D028C8BD9500939DAB /* RemoveCart.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -351,6 +370,7 @@
 				A1A106A128BBD42200C93783 /* Product */,
 				A1A106A228BBD44000C93783 /* Catalog */,
 				A10C875628C6061000EB22CB /* Reviews */,
+				A1D025C728C8BB9F00939DAB /* Cart */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -365,6 +385,15 @@
 				A1A2AAD328B5422600123CAD /* RequestRouter.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		A1D025C728C8BB9F00939DAB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				A1D025C528C8BB9900939DAB /* Cart.swift */,
+				A1D025C828C8BBC900939DAB /* CartRequestFactory.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,10 +545,15 @@
 				A1A2AAE028B5460900123CAD /* LogOutRequestFactory.swift in Sources */,
 				A1A2AAC128B53D7C00123CAD /* AuthRequestFactory.swift in Sources */,
 				A1A2AAD028B5415800123CAD /* ResponseCodable.swift in Sources */,
+				A1D025C928C8BBC900939DAB /* CartRequestFactory.swift in Sources */,
 				A1A2AAD228B5419E00123CAD /* ErrorParser.swift in Sources */,
 				A1A2AAE228B5462800123CAD /* LogOut.swift in Sources */,
+				A1D025C628C8BB9900939DAB /* Cart.swift in Sources */,
 				A1A2AADE28B545F000123CAD /* Registration.swift in Sources */,
 				A1A2AAD428B5422600123CAD /* RequestRouter.swift in Sources */,
+				A1D025D128C8BD9500939DAB /* RemoveCart.swift in Sources */,
+				A1D025CF28C8BCB500939DAB /* AddCard.swift in Sources */,
+				A1D025CD28C8BC9900939DAB /* CartResult.swift in Sources */,
 				A10C875828C6063600EB22CB /* ReviewsRequestFactory.swift in Sources */,
 				A1A106A828BBD49700C93783 /* ProductResult.swift in Sources */,
 				A156911E28AEB3150001D5DE /* AppDelegate.swift in Sources */,
@@ -530,6 +564,7 @@
 				A10C875E28C606D600EB22CB /* ReviewResult.swift in Sources */,
 				A10C875C28C606C300EB22CB /* Review.swift in Sources */,
 				A1A2AAE628B5464A00123CAD /* Changes.swift in Sources */,
+				A1D025CB28C8BC8D00939DAB /* CartBalance.swift in Sources */,
 				A1A106AA28BBD4A100C93783 /* CatalogResult.swift in Sources */,
 				A1A1069E28BBD40E00C93783 /* Catalog.swift in Sources */,
 				A1A2AACE28B540CE00123CAD /* AbstractErrorParser.swift in Sources */,
@@ -548,6 +583,7 @@
 				A1A1069628BBC3D100C93783 /* AuthTests.swift in Sources */,
 				A10C875A28C6068100EB22CB /* ReviewsTests.swift in Sources */,
 				A1A106AC28BBE46200C93783 /* ProductTests.swift in Sources */,
+				A1D025D328C8C0CD00939DAB /* CartTests.swift in Sources */,
 				A1A106AE28BBE47500C93783 /* CatalogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
