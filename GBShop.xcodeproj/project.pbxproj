@@ -57,7 +57,7 @@
 		A1D025CD28C8BC9900939DAB /* CartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025CC28C8BC9900939DAB /* CartResult.swift */; };
 		A1D025CF28C8BCB500939DAB /* AddCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025CE28C8BCB500939DAB /* AddCard.swift */; };
 		A1D025D128C8BD9500939DAB /* RemoveCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025D028C8BD9500939DAB /* RemoveCart.swift */; };
-		A1D025D328C8C0CD00939DAB /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025D228C8C0CD00939DAB /* CartTests.swift */; };
+		A1D025D528C8D47600939DAB /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D025D428C8D47600939DAB /* CartTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +131,7 @@
 		A1D025CC28C8BC9900939DAB /* CartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartResult.swift; sourceTree = "<group>"; };
 		A1D025CE28C8BCB500939DAB /* AddCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCard.swift; sourceTree = "<group>"; };
 		A1D025D028C8BD9500939DAB /* RemoveCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveCart.swift; sourceTree = "<group>"; };
-		A1D025D228C8C0CD00939DAB /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
+		A1D025D428C8D47600939DAB /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,7 +211,7 @@
 				A1A106AB28BBE46100C93783 /* ProductTests.swift */,
 				A1A106AD28BBE47500C93783 /* CatalogTests.swift */,
 				A10C875928C6068100EB22CB /* ReviewsTests.swift */,
-				A1D025D228C8C0CD00939DAB /* CartTests.swift */,
+				A1D025D428C8D47600939DAB /* CartTests.swift */,
 			);
 			path = GBShopTests;
 			sourceTree = "<group>";
@@ -579,11 +579,11 @@
 				A1A1069828BBC7E100C93783 /* LogOutTests.swift in Sources */,
 				A1A1069C28BBC81800C93783 /* RegistrationTests.swift in Sources */,
 				A1A1069A28BBC7FA00C93783 /* ChangesTests.swift in Sources */,
+				A1D025D528C8D47600939DAB /* CartTests.swift in Sources */,
 				A156913528AEB3170001D5DE /* GBShopTests.swift in Sources */,
 				A1A1069628BBC3D100C93783 /* AuthTests.swift in Sources */,
 				A10C875A28C6068100EB22CB /* ReviewsTests.swift in Sources */,
 				A1A106AC28BBE46200C93783 /* ProductTests.swift in Sources */,
-				A1D025D328C8C0CD00939DAB /* CartTests.swift in Sources */,
 				A1A106AE28BBE47500C93783 /* CatalogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
