@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A100F96128C8DB2B00BF9C2E /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100F95F28C8DB2700BF9C2E /* Cart.swift */; };
+		A100F96428C8DB3E00BF9C2E /* CartRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100F96228C8DB3B00BF9C2E /* CartRequestFactory.swift */; };
 		A10C875528C6060900EB22CB /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C875428C6060900EB22CB /* Reviews.swift */; };
 		A10C875828C6063600EB22CB /* ReviewsRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C875728C6063600EB22CB /* ReviewsRequestFactory.swift */; };
 		A10C875A28C6068100EB22CB /* ReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C875928C6068100EB22CB /* ReviewsTests.swift */; };
 		A10C875C28C606C300EB22CB /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C875B28C606C300EB22CB /* Review.swift */; };
 		A10C875E28C606D600EB22CB /* ReviewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C875D28C606D600EB22CB /* ReviewResult.swift */; };
 		A10C876228C60B7C00EB22CB /* RemoveReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C876128C60B7C00EB22CB /* RemoveReview.swift */; };
+		A130453B28C8FD4900FB2BE9 /* BalanceCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130453A28C8FD4900FB2BE9 /* BalanceCart.swift */; };
+		A130453D28C8FD5C00FB2BE9 /* AddCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130453C28C8FD5C00FB2BE9 /* AddCart.swift */; };
+		A130453F28C8FD8300FB2BE9 /* RemoveCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130453E28C8FD8300FB2BE9 /* RemoveCart.swift */; };
+		A130454128C8FDA300FB2BE9 /* CartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130454028C8FDA300FB2BE9 /* CartResult.swift */; };
+		A130454628C900FB00FB2BE9 /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130454528C900FB00FB2BE9 /* CartTests.swift */; };
 		A156911E28AEB3150001D5DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156911D28AEB3150001D5DE /* AppDelegate.swift */; };
 		A156912728AEB3170001D5DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A156912628AEB3170001D5DE /* Assets.xcassets */; };
 		A156912A28AEB3170001D5DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A156912828AEB3170001D5DE /* LaunchScreen.storyboard */; };
@@ -71,12 +78,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A100F95F28C8DB2700BF9C2E /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		A100F96228C8DB3B00BF9C2E /* CartRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRequestFactory.swift; sourceTree = "<group>"; };
 		A10C875428C6060900EB22CB /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		A10C875728C6063600EB22CB /* ReviewsRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsRequestFactory.swift; sourceTree = "<group>"; };
 		A10C875928C6068100EB22CB /* ReviewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTests.swift; sourceTree = "<group>"; };
 		A10C875B28C606C300EB22CB /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = ../../Core/Network/Review.swift; sourceTree = "<group>"; };
 		A10C875D28C606D600EB22CB /* ReviewResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewResult.swift; sourceTree = "<group>"; };
 		A10C876128C60B7C00EB22CB /* RemoveReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveReview.swift; sourceTree = "<group>"; };
+		A130453A28C8FD4900FB2BE9 /* BalanceCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCart.swift; sourceTree = "<group>"; };
+		A130453C28C8FD5C00FB2BE9 /* AddCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCart.swift; sourceTree = "<group>"; };
+		A130453E28C8FD8300FB2BE9 /* RemoveCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveCart.swift; sourceTree = "<group>"; };
+		A130454028C8FDA300FB2BE9 /* CartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartResult.swift; sourceTree = "<group>"; };
+		A130454528C900FB00FB2BE9 /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
 		A156911A28AEB3150001D5DE /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A156911D28AEB3150001D5DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A156912628AEB3170001D5DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +160,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A100F96528C8DB4000BF9C2E /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				A100F95F28C8DB2700BF9C2E /* Cart.swift */,
+				A100F96228C8DB3B00BF9C2E /* CartRequestFactory.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
 		A10C875628C6061000EB22CB /* Reviews */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +220,7 @@
 				A1A106AB28BBE46100C93783 /* ProductTests.swift */,
 				A1A106AD28BBE47500C93783 /* CatalogTests.swift */,
 				A10C875928C6068100EB22CB /* ReviewsTests.swift */,
+				A130454528C900FB00FB2BE9 /* CartTests.swift */,
 			);
 			path = GBShopTests;
 			sourceTree = "<group>";
@@ -266,6 +290,10 @@
 				A1A2AAD928B5448300123CAD /* ChangesResult.swift */,
 				A1A106A728BBD49700C93783 /* ProductResult.swift */,
 				A1A106A928BBD4A100C93783 /* CatalogResult.swift */,
+				A130453A28C8FD4900FB2BE9 /* BalanceCart.swift */,
+				A130453C28C8FD5C00FB2BE9 /* AddCart.swift */,
+				A130453E28C8FD8300FB2BE9 /* RemoveCart.swift */,
+				A130454028C8FDA300FB2BE9 /* CartResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -351,6 +379,7 @@
 				A1A106A128BBD42200C93783 /* Product */,
 				A1A106A228BBD44000C93783 /* Catalog */,
 				A10C875628C6061000EB22CB /* Reviews */,
+				A100F96528C8DB4000BF9C2E /* Cart */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -441,6 +470,7 @@
 					};
 					A156912F28AEB3170001D5DE = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1340;
 						TestTargetID = A156911928AEB3150001D5DE;
 					};
 					A156913928AEB3170001D5DE = {
@@ -509,6 +539,7 @@
 				A1A2AAC928B53FAB00123CAD /* RequestFactory.swift in Sources */,
 				A1A2AAD628B5442F00123CAD /* RegistrationResult.swift in Sources */,
 				A1A2AAC528B53E4D00123CAD /* LoginResult.swift in Sources */,
+				A100F96428C8DB3E00BF9C2E /* CartRequestFactory.swift in Sources */,
 				A10C875528C6060900EB22CB /* Reviews.swift in Sources */,
 				A1A2AADA28B5448300123CAD /* ChangesResult.swift in Sources */,
 				A10C876228C60B7C00EB22CB /* RemoveReview.swift in Sources */,
@@ -517,7 +548,10 @@
 				A1A2AAC128B53D7C00123CAD /* AuthRequestFactory.swift in Sources */,
 				A1A2AAD028B5415800123CAD /* ResponseCodable.swift in Sources */,
 				A1A2AAD228B5419E00123CAD /* ErrorParser.swift in Sources */,
+				A130453F28C8FD8300FB2BE9 /* RemoveCart.swift in Sources */,
 				A1A2AAE228B5462800123CAD /* LogOut.swift in Sources */,
+				A100F96128C8DB2B00BF9C2E /* Cart.swift in Sources */,
+				A130454128C8FDA300FB2BE9 /* CartResult.swift in Sources */,
 				A1A2AADE28B545F000123CAD /* Registration.swift in Sources */,
 				A1A2AAD428B5422600123CAD /* RequestRouter.swift in Sources */,
 				A10C875828C6063600EB22CB /* ReviewsRequestFactory.swift in Sources */,
@@ -529,11 +563,13 @@
 				A1A2AAC328B53D8B00123CAD /* Auth.swift in Sources */,
 				A10C875E28C606D600EB22CB /* ReviewResult.swift in Sources */,
 				A10C875C28C606C300EB22CB /* Review.swift in Sources */,
+				A130453B28C8FD4900FB2BE9 /* BalanceCart.swift in Sources */,
 				A1A2AAE628B5464A00123CAD /* Changes.swift in Sources */,
 				A1A106AA28BBD4A100C93783 /* CatalogResult.swift in Sources */,
 				A1A1069E28BBD40E00C93783 /* Catalog.swift in Sources */,
 				A1A2AACE28B540CE00123CAD /* AbstractErrorParser.swift in Sources */,
 				A1A2AAE428B5463900123CAD /* ChangesRequestFactory.swift in Sources */,
+				A130453D28C8FD5C00FB2BE9 /* AddCart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +585,7 @@
 				A10C875A28C6068100EB22CB /* ReviewsTests.swift in Sources */,
 				A1A106AC28BBE46200C93783 /* ProductTests.swift in Sources */,
 				A1A106AE28BBE47500C93783 /* CatalogTests.swift in Sources */,
+				A130454628C900FB00FB2BE9 /* CartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,14 +798,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lesson.GBShopTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GBShop/App/Entity/GBShopTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBShop.app/GBShop";
@@ -780,14 +825,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lesson.GBShopTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GBShop/App/Entity/GBShopTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBShop.app/GBShop";
